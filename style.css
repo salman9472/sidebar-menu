@@ -1,0 +1,83 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+
+    height: 100vh;
+    background-image: url(photo.jpg);
+    background-size: cover;
+}
+.btn1{
+    color: white;
+    font-size: 35px;
+    position: absolute;
+    left: 16px;
+}
+.sidebarmenu{
+    position: fixed;
+    width: 300px;
+    height: 100vh;
+    background-color: rgba(129, 36, 36, 0.5);
+    box-shadow: 0 0 12px rgb(83, 33, 33);
+}
+.sidebarmenu .logo{
+    position: absolute;
+    width: 100%;
+    line-height: 50px;
+
+}
+.sidebarmenu .logo a{
+    position: absolute;
+    left: 70px;
+    text-decoration: none;
+    font-size: 20px;
+    text-transform: capitalize;
+}
+.sidebarmenu .btn2{
+    position: absolute;
+    left: 270px;
+}
+.sidebarmenu .menu{
+    color: white;
+    position: absolute;
+    top: 70px;
+    font-size: 30px;
+    line-height: 40px;
+        width: 100%;
+
+}
+.sidebarmenu .menu li{
+    margin-top: 7px;
+    padding: 12px 15px;
+
+}
+.sidebarmenu .menu i, a{
+    text-decoration: none;
+    color: white;
+    text-transform: capitalize;
+    
+}
+.sidebarmenu .social{
+    color: antiquewhite;
+    position: absolute;
+    left: 25% ;
+    bottom: 20px;
+}
+.sidebarmenu .social i{
+    color: white;
+    opacity: 0.5;
+    padding: 0 10px;
+}
+#check{
+    display: none;
+}
+.sidebarmenu .menu li:hover{
+    box-shadow: 0 0 4px rgba(255,255, 255, 1);
+
+}
+.sidebarmenu .social i:hover{
+    opacity: 1;
+    transform: scale(2);
+}
